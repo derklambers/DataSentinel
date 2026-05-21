@@ -52,13 +52,13 @@ Example output:
 
 ## ✨ Features
 
-- ⚡ Fast scanning of staged Git changes
-- 🧩 Extensible detector system (regex + validators)
-- 🇳🇱 EU-aware PII detection (BSN, IBAN, phone numbers)
-- 🔒 Blocks commits on high-severity findings
-- 🎨 Clean terminal UI (Rich-based)
-- 🔌 Works as pre-commit hook or CI step
-- 🧠 Optional validation logic (not just regex)
+- Fast scanning of staged Git changes
+- Extensible detector system (regex + validators)
+- EU-aware PII detection (BSN, IBAN, phone numbers)
+- Blocks commits on high-severity findings
+- Clean terminal UI (Rich-based)
+- Works as pre-commit hook or CI step
+- Optional validation logic (not just regex)
 
 ---
 
