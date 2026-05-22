@@ -1,0 +1,8 @@
+#!/bin/sh
+
+python datasentinel.py scan
+
+if [ $? -ne 0 ]; then
+    echo "Commit blocked by DataSentinel."
+    exit 1
+fi

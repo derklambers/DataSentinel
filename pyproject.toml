@@ -1,0 +1,14 @@
+
+[project]
+name = "datasentinel"
+version = "0.1.0"
+description = "Fast pre-commit PII & secrets scanner"
+requires-python = ">=3.9"
+
+dependencies = [
+    "typer",
+    "rich"
+]
+
+[project.scripts]
+datasentinel = "datasentinel:app"
