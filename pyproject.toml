@@ -10,5 +10,10 @@ dependencies = [
     "rich"
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
 [project.scripts]
-datasentinel = "datasentinel:app"
+datasentinel = "datasentinel.cli:app"
